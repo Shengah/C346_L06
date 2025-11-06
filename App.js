@@ -89,11 +89,11 @@ const QuizApp = () => {
                     let message = `You got ${score} out of 3 correct!`;
 
                     if (score === 3) {
-                        message = "Perfect!";
+                        message = "Perfect! " + "Current Score: " + score ;
                     } else if (score === 2) {
-                        message = "Almost there!";
+                        message = "Almost there! " + "Current Score: " + score ;
                     } else if (score === 1) {
-                        message = "Keep trying!";
+                        message = "Keep trying! " + "Current Score: " + score ;
                     } else {
                         message = "All Wrong";
                     }
